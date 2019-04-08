@@ -8,26 +8,26 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button rentyourself=(Button)findViewById(R.id.rentYourself);
-    Button rentyourride=(Button)findViewById(R.id.rentYourRide);
+    Button register=(Button)findViewById(R.id.register);
+    Button login=(Button)findViewById(R.id.login);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        rentyourself.setOnClickListener(new View.OnClickListener() {
+        register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity.this,UserLogin.class);
+                Intent i=new Intent(MainActivity.this,userRegister.class);
                 startActivity(i);
 
             }
         });
-        rentyourride.setOnClickListener(new View.OnClickListener() {
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity.this,OwnerLogin.class);
+                Intent i = new Intent(MainActivity.this,UserLogin.class);
                 startActivity(i);
             }
         });

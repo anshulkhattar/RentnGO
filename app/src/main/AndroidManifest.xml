@@ -18,7 +18,10 @@
         </activity>
         <activity android:name=".UserLogin" />
         <activity android:name=".OwnerLogin" />
-        <activity android:name=".shopsList"></activity>
+        <activity android:name=".shopsList" />
+        <activity android:name=".userRegister" />
+        <activity android:name=".DividingPage" />
+        <activity android:name=".shopDetails"></activity>
     </application>
 
 </manifest>

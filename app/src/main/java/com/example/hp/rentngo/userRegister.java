@@ -3,11 +3,11 @@ package com.example.hp.rentngo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class OwnerLogin extends AppCompatActivity {
+public class userRegister extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_owner_login);
+        setContentView(R.layout.activity_user_register);
     }
 }

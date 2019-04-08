@@ -30,7 +30,7 @@
         app:layout_constraintVertical_bias="0.211" />
 
     <Button
-        android:id="@+id/rentYourRide"
+        android:id="@+id/login"
         android:layout_width="157dp"
         android:layout_height="60dp"
         android:layout_marginStart="130dp"
@@ -38,7 +38,7 @@
         android:layout_marginEnd="122dp"
         android:layout_marginRight="122dp"
         android:layout_marginBottom="108dp"
-        android:text="Rent your ride"
+        android:text="login"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,7 +47,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/rentYourself"
+        android:id="@+id/register"
         android:layout_width="154dp"
         android:layout_height="59dp"
         android:layout_marginStart="8dp"
@@ -56,7 +56,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="45dp"
-        android:text="Rent yourself"
+        android:text="Register"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/rentYourRide"
